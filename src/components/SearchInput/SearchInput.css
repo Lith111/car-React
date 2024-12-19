@@ -1,0 +1,32 @@
+.element{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 201px;
+    box-shadow: 0px 0px 40px -22px rgba(74,144,226,1) inset,
+0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+0px 2px 1px 0px rgba(0,0,0,0.06),
+0px 4px 2px 0px rgba(0,0,0,0.09),
+255px -6px 27px 0px rgba(255,255,255,1) inset,
+0px 16px 8px 0px rgba(0,0,0,0.09);
+}
+@media (max-width:650px) {
+   .element{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   }
+   }
+.element > div, .element> button{
+    margin: 10px !important;
+}
+.element > button{
+    background-color: #976E72;
+    outline: no ne;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    color:#fff
+}
